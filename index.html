@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portafolio</title>
+
+    <!-- Enlace boxicons -->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Enlace fuente Monserrat -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat&display=swap" rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,300&display=swap"
+        rel="stylesheet">
+
+    <!-- Enlace local css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a class="identificador" href=''>logo</a>
+
+
+            <div class="menu">
+
+                <ul class="menu-list">
+
+                    <li class="menu-item"><a class="menu-link" href="#">01. About me</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">02. Skills</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">03. Experience</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">04. Projects</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">05. Contacts</a></li>
+                </ul>
+            </div>
+
+            <button class="btn-open" type="button" aria-label="abrir menu">
+                <i class='bx bx-menu nav-icon'></i>
+            </button>
+
+        </nav>
+    </header>
+    <!-- El contenido de tu página va aquí -->
+    <main>
+        <section class="about-me">
+
+            <div class="container">
+
+                <h4 class="txt-descriptivo">Maicol Salazar | About me</h4>
+
+                <div class="seccion1">
+
+                    <div class="caja1">
+                        <h1 class="titular"><span class="light">Hello!</span><br>I'm Maicol</h1>
+                        <p class="txt1">Hello, my name is Maicol, I am from Colombia, I am 23 years old and I work as a
+                            Frontend and
+                            Backend developer. I really like to design and layout before moving on to code, but the
+                            truth
+                            is, I enjoy every part of the process.</p>
+
+                        <div class="caja_botones">
+                            <button class="btn-one" >Web Developer</button>
+                            <button class="btn-one" >Web Designer</button>
+
+
+                        </div>
+                    </div>
+
+                    <div class="caja2">
+                        <img class="cabezote-img" src="./img/my_profile_picture.png">
+                        
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <section class="skills">
+
+            <div class="container">
+
+                <div class="carrusel">
+                    <ul class="carrusel-list">
+
+                        <div class="controlador-izquierdo">
+                            <i class='bx bx-chevron-left'></i>
+                        </div>
+
+                        <li class="carrusel-skill"><i class='bx bxl-html5'></i></li>
+                        <li class="carrusel-skill"><i class='bx bxl-figma'></i></li>
+                        <li class="carrusel-skill"><i class='bx bxl-css3'></i></li>
+                        <li class="carrusel-skill"><i class='bx bxl-javascript'></i></li>
+
+                        <div class="controlador-derecho">
+                            <i class='bx bx-chevron-right'></i>
+                        </div>
+                    </ul>
+                </div>
+
+
+                <h6 class="piede-pagina">Web Design / Front-end Developer / Back-end Developer
+                </h6>
+
+
+
+            </div>
+        </section>
+
+        <section class="proyects">
+            <div class="container">
+
+
+
+                <ul class="proyects-ul">
+
+                    <li class="proyects-list"><iframe class="proyects-img"
+                            src="https://www.behance.net/embed/project/156419553?ilo0=1" height="316" width="404"
+                            allowfullscreen lazyload frameborder="0" allow="clipboard-write"
+                            refererPolicy="strict-origin-when-cross-origin"></iframe>
+                        <div class="subtitle-proyects">Web design proyect</div>
+                    </li>
+
+                    <li class="proyects-list"><iframe class="proyects-img"
+                            src="https://www.behance.net/embed/project/140964907?ilo0=1" height="316" width="404"
+                            allowfullscreen lazyload frameborder="0" allow="clipboard-write"
+                            refererPolicy="strict-origin-when-cross-origin"></iframe>
+                        <div class="subtitle-proyects">Mobile aplication</div>
+                    </li>
+
+                    <li class="proyects-list"><iframe class="proyects-img"
+                            src="https://www.behance.net/embed/project/144159619?ilo0=1" height="316" width="404"
+                            allowfullscreen lazyload frameborder="0" allow="clipboard-write"
+                            refererPolicy="strict-origin-when-cross-origin"></iframe>
+                        <div class="subtitle-proyects">User identification</div>
+                    </li>
+
+
+            </div>
+
+            </div>
+        </section>
+
+        <section class="review">
+            <div class="container">
+
+
+
+                <h3 class="txt-descriptivo-dark">Customer experience</h3>
+                <div class="linea"></div>
+
+
+
+                <ul class="section-reviews">
+
+                    <li class="review-list">
+
+                        <img class="review-photo" src="img/customer1.jpg">
+                        
+
+                        <div class="review-txt">
+
+                            <div class="container-review-superior">
+
+
+                            <h3 class="review-names">Sara Joins<br class="review-sub">Google<h5>
+                            </h3>
+
+
+                            <div class="review-reactions">
+                                <i class='bx bx-heart'></i>
+    
+                            </div>
+
+                        </div>
+                            <p class="review-coments">Lo recomiendo mucho, su trabajo es excelente, el manejo
+                                tipografico, todo muy nice</p>
+
+                               
+                        </div>
+
+
+                       
+
+
+                    </li>
+
+                    <li class="review-list">
+
+                        <img class="review-photo" src="img/customer2.jpg">
+                        
+
+                        <div class="review-txt">
+
+                            <div class="container-review-superior">
+
+
+                            <h3 class="review-names">Sara Joins<br class="review-sub">Google<h5>
+                            </h3>
+
+
+                            <div class="review-reactions">
+                                <i class='bx bx-heart'></i>
+    
+                            </div>
+
+                        </div>
+                            <p class="review-coments">Lo recomiendo mucho, su trabajo es excelente, el manejo
+                                tipografico, todo muy nice</p>
+
+                               
+                        </div>
+
+
+                       
+
+
+                    </li>
+
+                    <li class="review-list">
+
+                        <img class="review-photo" src="img/customer3.jpg">
+                        
+
+                        <div class="review-txt">
+
+                            <div class="container-review-superior">
+
+
+                            <h3 class="review-names">Sara Joins<br class="review-sub">Google<h5>
+                            </h3>
+
+
+                            <div class="review-reactions">
+                                <i class='bx bx-heart'></i>
+    
+                            </div>
+
+                        </div>
+                            <p class="review-coments">Lo recomiendo mucho, su trabajo es excelente, el manejo
+                                tipografico, todo muy nice</p>
+
+                               
+                        </div>
+
+
+                       
+
+
+                    </li>
+
+
+
+
+
+
+
+
+                </ul>
+                <div class="linea"></div>
+                
+              
+
+            </div>
+
+            </div>
+        </section>
+
+    </main>
+
+        <footer class="contacts-footer">
+
+            <div class="container">
+
+
+
+                <div class="contacts-container">
+
+                    <ul class="contacts-ul">
+                       
+                        <div class="linea3"></div>
+
+                        <li class="contacts-list"><i class='bx bx-mobile-alt'></i>
+                            <h3 class="contacts-subtitles">+57 320 441 4005</h3>
+                        </li>
+                        <li class="contacts-list"><i class='bx bx-envelope'></i>
+                            <h3 class="contacts-subtitles">stivsal12@gmail.com</h3>
+                        </li>
+                        <li class="contacts-list"><i class='bx bx-map'></i>
+                            <h3 class="contacts-subtitles">Barbosa, Santander</h3>
+                        </li>
+                        <div class="linea3"></div>
+
+
+
+                        <ul class="footer-contacts">
+                            <li class="footer-item"><i class='bx bxl-instagram'></i></li>
+                            <li class="footer-item"><i class='bx bxl-facebook-circle'></i></li>
+                            <li class="footer-item"><i class='bx bxl-github'></i></li>
+                            <li class="footer-item"><i class='bx bxl-linkedin-square'></i></li>
+                        </ul>
+
+                        
+
+
+                    </ul>
+
+
+                    <section class="form">
+
+                        <div class="content-form">
+
+                        <h3 class="txt-descriptivo-dark">Contact Me</h3>
+                        <p class="contacts-txt">If you want to contact me,<br>leave me a message!</p>
+
+                        <input class="contacts-register" type="text" id="name" name="name" placeholder="Name">
+
+                        <input class="contacts-register" type="email" id="email" name="email" placeholder="email">
+
+                        <textarea class="contacts-register" type="messaje" id="messaje" name="messaje" rows="4"
+                            placeholder="Messaje"></textarea>
+
+                        <input class="button-send" type="submit" value="Send">
+                    </div>
+
+                    </section>
+
+
+                </div>
+            </div>
+        </footer>
+
+
+
+    
+
+
+
+    <!-- Puedes incluir scripts de JavaScript al final del cuerpo para mejorar el rendimiento -->
+</body>
+
+</html>
