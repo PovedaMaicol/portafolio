@@ -220,6 +220,12 @@ flex-wrap: nowrap;
     color: #b6bbc4;
 }
 
+.light-2 {
+    font-size:small;
+        color: #161a30;
+        font-weight: 300;
+}
+
 .linea {
     width: 100%;
 
@@ -351,7 +357,6 @@ flex-wrap: nowrap;
     border-radius: 1vh;
     ;
 
-    height: 80%;
 
 
 
@@ -738,9 +743,9 @@ height:40vh ;
     }
 
     .proyects {
+        justify-content: space-around;
         height: 100vh;
  
-      
      
    
       
@@ -753,7 +758,7 @@ height:40vh ;
         align-items: center;
         width: 100%;
       
-    
+    padding: 0;
         margin: 0;
        
       
@@ -798,6 +803,18 @@ height:40vh ;
     .review-txt {
         height: 100%;
         background-color: #e2e5ec;
+        
+    }
+    .container-review-superior {
+      
+       height:4vh;
+       
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .review-sub {
+       display: none;
     }
 
     .review-photo {
