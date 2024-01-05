@@ -85,20 +85,34 @@ a {
     border-radius: 0.3vw;
 }
 
-.barra-lateral {
- position: absolute;
-    height: auto;
-    list-style: none;
-    width: auto;
-    right: 10;
-   
+
+
+.barra-item {
+ 
 }
 
 .about-me {
     height:auto;
     margin-bottom: 12vh;
+    position: relative;
 
 }
+
+.barra-lateral {
+    position: absolute;
+       list-style: none;
+   
+       top: 200px;
+   right: 15vh;
+      
+       justify-content: space-between;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       height: auto;
+      
+      
+   }
 
 .seccion1 {
 flex-wrap: nowrap;
@@ -706,6 +720,7 @@ height:40vh ;
         height: calc(100vh - 64px);
         padding: 30px 40px;
         transition: left .5s;
+        z-index: 3;
       
     }
 
@@ -727,6 +742,11 @@ height:40vh ;
     .nav-icon {
         font-size: 30px;
         color: #b6bbc4;
+    }
+
+    .barra-lateral {
+        right: 2vh;
+        top: 10vh;
     }
    
    
