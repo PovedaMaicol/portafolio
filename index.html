@@ -2,9 +2,10 @@
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portafolio</title>
+    <title>My portfolio</title>
 
     <!-- Enlace boxicons -->
 
@@ -17,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat&display=swap" rel="stylesheet">
 
 
+    <!-- Enlace fuentes de Google-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,15 +27,16 @@
 
     <!-- Enlace local css -->
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
     <header class="header">
         <nav class="navbar container">
-            <a class="identificador" href=''>logo</a>
+            <a class="identificador" href='/'>logo</a>
 
 
-            <div class="menu">
+            <div id="navMenu" class="menu">
 
                 <ul class="menu-list">
 
@@ -45,14 +48,27 @@
                 </ul>
             </div>
 
-            <button class="btn-open" type="button" aria-label="abrir menu">
+            <button id="btnOpen" class="btn-open" type="button" aria-label="abrir menu">
                 <i class='bx bx-menu nav-icon'></i>
             </button>
 
         </nav>
     </header>
+
+    <script>
+        btnOpen.onclick = function () {
+            navMenu.classList.toggle('show-menu')
+        }
+    </script>
     <!-- El contenido de tu página va aquí -->
     <main>
+
+        <ul class="barra-lateral">
+            <li class="footer-item"><a class="enlaces" href="https://www.behance.net/maicolvillami"><i class='bx bxl-instagram'></i></a></li>
+            <li class="footer-item"><a class="enlaces" href="https://www.behance.net/maicolvillami"><i class='bx bxl-behance'></i></a></li>
+            <li class="footer-item"><a class="enlaces" href="https://github.com/PovedaMaicol"><i class='bx bxl-github'></i></a></li>
+            <li class="footer-item"><a class="enlaces" href="https://www.linkedin.com/in/maicol-salazar-7040b4299/"><i class='bx bxl-linkedin-square'></i></a></li>
+        </ul>
         <section class="about-me">
 
             <div class="container">
@@ -62,8 +78,8 @@
                 <div class="seccion1">
 
                     <div class="caja2">
-                        <img class="cabezote-img" src="./img/my_profile_picture.png">
-                        
+                        <img class="cabezote-img" src="./img/ImagenEnPixel.jpeg" alt="propile picture" width="100%">
+
                     </div>
 
 
@@ -76,20 +92,22 @@
                             is, I enjoy every part of the process.</p>
 
                         <div class="caja_botones">
-                            <button class="btn-one" >Web Developer</button>
-                            <button class="btn-one" >Web Designer</button>
+                            <a class="btn-one">Web Developer</a>
+                            <a class="btn-one">Web Designer</a>
 
 
                         </div>
                     </div>
 
-                   
+
                 </div>
 
 
 
             </div>
         </section>
+
+        
 
         <section class="skills">
 
@@ -170,93 +188,100 @@
 
                     <li class="review-list">
 
-                        <img class="review-photo" src="img/customer1.jpg">
-                        
+                       
+                            <img class="review-photo" src="img/customer1.jpg" alt="picture profile reviews" width="100%">
+                   
+
 
                         <div class="review-txt">
 
                             <div class="container-review-superior">
 
 
-                            <h3 class="review-names">Sara Joins<br><span class="light-2">Skybit</span>
-                            </h3>
+                                <h3 class="review-names">Sara Joins<br><span class="light-2">Skybit</span>
+                                </h3>
 
 
-                            <div class="review-reactions">
-                                <i class='bx bx-heart'></i>
-    
+                                <div class="review-reactions">
+                                    <i class='bx bx-heart'></i>
+
+                                </div>
+
                             </div>
+                            <p class="review-coments">I highly recommend him, his work is excellent, the typographical
+                                management</p>
+
 
                         </div>
-                            <p class="review-coments">I highly recommend him, his work is excellent, the typographical management</p>
-
-                               
-                        </div>
 
 
-                       
+
 
 
                     </li>
 
                     <li class="review-list">
 
-                        <img class="review-photo" src="img/customer2.jpg">
-                        
+                     
+                            <img class="review-photo" src="img/customer2.jpg" alt="picture profile reviews" width="100%">
+                     
+
 
                         <div class="review-txt">
 
                             <div class="container-review-superior">
 
 
-                            <h3 class="review-names">Juan robles<br><span class="light-2">Facebook</span>
-                            </h3>
+                                <h3 class="review-names">Juan robles<br><span class="light-2">Facebook</span>
+                                </h3>
 
 
-                            <div class="review-reactions">
-                                <i class='bx bx-heart'></i>
-    
+                                <div class="review-reactions">
+                                    <i class='bx bx-heart'></i>
+
+                                </div>
+
                             </div>
+                            <p class="review-coments">I have been working with Mr. Maicol for 3 years and he has always
+                                been very responsible</p>
+
 
                         </div>
-                            <p class="review-coments">I have been working with Mr. Maicol for 3 years and he has always been very responsible</p>
-
-                               
-                        </div>
 
 
-                       
+
 
 
                     </li>
 
                     <li class="review-list">
 
-                        <img class="review-photo" src="img/customer3.jpg">
-                        
+                        <img class="review-photo" src="img/customer3.jpg" alt="picture profile reviews" width="100%">
+
 
                         <div class="review-txt">
 
                             <div class="container-review-superior">
 
 
-                            <h3 class="review-names">Juan cruz<br><span class="light-2">Google</span>
-                            </h3>
+                                <h3 class="review-names">Juan cruz<br><span class="light-2">Google</span>
+                                </h3>
 
 
-                            <div class="review-reactions">
-                                <i class='bx bx-heart'></i>
-    
+                                <div class="review-reactions">
+                                    <i class='bx bx-heart'></i>
+
+                                </div>
+
                             </div>
+                            <p class="review-coments">spectacular, the delivery time of your projects everything is very
+                                nice</p>
+
 
                         </div>
-                            <p class="review-coments">spectacular, the delivery time of your projects everything is very nice</p>
-
-                               
-                        </div>
 
 
-                       
+
 
 
                     </li>
@@ -270,8 +295,8 @@
 
                 </ul>
                 <div class="linea"></div>
-                
-              
+
+
 
             </div>
 
@@ -280,47 +305,47 @@
 
     </main>
 
-        <footer class="contacts-footer">
+    <footer class="contacts-footer">
 
-            <div class="container">
-
-
-
-                <div class="contacts-container">
-
-                    <ul class="contacts-ul">
-                       
-                        <div class="linea3"></div>
-
-                        <li class="contacts-list"><i class='bx bx-mobile-alt'></i>
-                            <h3 class="contacts-subtitles">+57 320 441 4005</h3>
-                        </li>
-                        <li class="contacts-list"><i class='bx bx-envelope'></i>
-                            <h3 class="contacts-subtitles">stivsal12@gmail.com</h3>
-                        </li>
-                        <li class="contacts-list"><i class='bx bx-map'></i>
-                            <h3 class="contacts-subtitles">Barbosa, Santander</h3>
-                        </li>
-                        <div class="linea3"></div>
+        <div class="container">
 
 
 
-                        <ul class="footer-contacts">
-                            <li class="footer-item"><i class='bx bxl-instagram'></i></li>
-                            <li class="footer-item"><i class='bx bxl-facebook-circle'></i></li>
-                            <li class="footer-item"><i class='bx bxl-github'></i></li>
-                            <li class="footer-item"><i class='bx bxl-linkedin-square'></i></li>
-                        </ul>
+            <div class="contacts-container">
 
-                        
+                <ul class="contacts-ul">
+
+                    <div class="linea3"></div>
+
+                    <li class="contacts-list"><i class='bx bx-mobile-alt'></i>
+                        <h3 class="contacts-subtitles">+57 320 441 4005</h3>
+                    </li>
+                    <li class="contacts-list"><i class='bx bx-envelope'></i>
+                        <h3 class="contacts-subtitles">stivsal12@gmail.com</h3>
+                    </li>
+                    <li class="contacts-list"><i class='bx bx-map'></i>
+                        <h3 class="contacts-subtitles">Barbosa, Santander</h3>
+                    </li>
+                    <div class="linea3"></div>
 
 
+
+                    <ul class="footer-contacts">
+                        <li class="footer-item"><a class="enlaces" href="https://www.behance.net/maicolvillami"><i class='bx bxl-instagram'></i></a></li>
+                        <li class="footer-item"><a class="enlaces" href="https://www.behance.net/maicolvillami"><i class='bx bxl-behance'></i></a></li>
+                        <li class="footer-item"><a class="enlaces" href="https://github.com/PovedaMaicol"><i class='bx bxl-github'></i></a></li>
+                        <li class="footer-item"><a class="enlaces" href="https://www.linkedin.com/in/maicol-salazar-7040b4299/"><i class='bx bxl-linkedin-square'></i></a></li>
                     </ul>
 
 
-                    <section class="form">
 
-                        <div class="content-form">
+
+                </ul>
+
+
+                <section class="form">
+
+                    <div class="content-form">
 
                         <h3 class="txt-descriptivo">Contact Me</h3>
                         <p class="contacts-txt">If you want to contact me,<br>leave me a message!</p>
@@ -335,20 +360,23 @@
                         <input class="button-send" type="submit" value="Send">
                     </div>
 
-                    </section>
+                </section>
 
 
-                </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
 
 
-    
+
 
 
 
     <!-- Puedes incluir scripts de JavaScript al final del cuerpo para mejorar el rendimiento -->
+
+
+    <!-- <script src="javascrip.js"></script> -->
 </body>
 
 </html>
