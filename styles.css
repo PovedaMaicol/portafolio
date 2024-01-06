@@ -9,7 +9,7 @@ html {
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 body {
@@ -418,7 +418,13 @@ height: auto;
     height: 200px;
     padding: 1vh;
     cursor: pointer;
+    font-family: 'Montserrat' sans-serif;
 
+}
+
+.experience {
+    background-color: #971d46;
+    height: 100vh;
 }
 
 
@@ -699,6 +705,10 @@ height:40vh ;
 
 
 
+
+
+
+
 @media only screen and (max-width: 767px) {
 
     body {
@@ -746,7 +756,7 @@ height:40vh ;
 
     .barra-lateral {
         right: 2vh;
-        top: 10vh;
+        top: 0vh;
     }
    
    
@@ -1001,6 +1011,10 @@ height:40vh ;
     .about-me {
         height: auto;
         margin-bottom: 3vh;
+    }
+
+    .barra-lateral {
+     display: none;
     }
 
 }
