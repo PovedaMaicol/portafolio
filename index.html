@@ -38,20 +38,24 @@
 <body>
     <header class="header">
         <nav class="navbar container">
-            <a class="identificador" href='/'>logo</a>
+            <a class="identificador" href='/'>Logo</a>
+
+         
 
 
             <div id="navMenu" class="menu">
 
                 <ul class="menu-list">
 
-                    <li class="menu-item"><a class="menu-link" href="#">01. About me</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">02. Skills</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">03. Experience</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">04. Projects</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">05. Contacts</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#section-uno">01. About me</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#section-dos">02. Skills</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#section-tres">03. Projects</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#section-cuatro">04. Training</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#section-cinco">05. Contact</a></li>
                 </ul>
             </div>
+
+            
 
             <button id="btnOpen" class="btn-open" type="button" aria-label="abrir menu">
                 <i class='bx bx-menu nav-icon'></i>
@@ -68,23 +72,22 @@
     <!-- El contenido de tu página va aquí -->
     <main>
 
-        <section class="about-me">
+        <section class="about-me" id="section-uno">
             
-        <ul class="barra-lateral">
-            <li class="barra-item"><a class="enlaces" href="https://api.whatsapp.com/send?phone=573197228443&text=Hola%20como%20estas!!!"><i class='bx bxl-whatsapp'></i></a></li>
-            <li class="barra-item"><a class="enlaces" href="https://www.behance.net/maicolvillami"><i class='bx bxl-behance'></i></a></li>
-            <li class="barra-item"><a class="enlaces" href="https://github.com/PovedaMaicol"><i class='bx bxl-github'></i></a></li>
-            <li class="barra-item"><a class="enlaces" href="https://www.linkedin.com/in/maicol-salazar-7040b4299/"><i class='bx bxl-linkedin-square'></i></a></li>
-        </ul>
+          
+            
+  
 
             <div class="container">
+
+                <a class="switch" id="switch-light-dark"><i class="bx bx-moon bx-border-circle"></i></a>
 
                 <h4 class="txt-descriptivo">About me</h4>
 
                 <div class="seccion1">
 
                     <div class="caja2">
-                        <img class="cabezote-img" src="./img/ImagenEnPixel.jpeg" alt="propile picture" width="100%">
+                        <img class="cabezote-img" src="./img/ImagenEnPixel.jpeg" alt="propile picture" height="auto" width="auto">
 
                     </div>
 
@@ -98,8 +101,8 @@
                             is, I enjoy every part of the process.</p>
 
                         <div class="caja_botones">
-                            <a class="btn-one">Web Developer</a>
-                            <a class="btn-one">Web Designer</a>
+                            <a class="btn-one">Web Developer<i class='bx bx-download'></i></a>
+                            <a class="btn-one">Web Designer<i class='bx bx-download'></i></a>
 
 
                         </div>
@@ -115,7 +118,7 @@
 
         
 
-        <section class="skills">
+        <section class="skills" id="section-dos">
 
             <div class="container">
 
@@ -146,7 +149,7 @@
             </div>
         </section>
 
-        <section class="proyects">
+        <section class="proyects" id="section-tres">
             <div class="container">
 
 
@@ -180,7 +183,7 @@
             </div>
         </section>
 
-        <section class="habilities">
+        <section class="habilities" id="section-cuatro">
             <div class="container">
 
                 <div class="habilities-cont">
@@ -194,10 +197,10 @@
                 <div class="habilities-cont-2">
 
                 <ul class="habilities-ul">
-                    <li class="habilities-li li-uno"><i class='bx bx-cog  icono-delgado'></i><h4 class="subtitulos">Problem resolution</h4></li>
-                    <li class="habilities-li li-dos"><i class='bx bx-group icono-delgado'></i><h4 class="subtitulos">Problem resolution</h4></li>
-                    <li class="habilities-li li-tres"><i class='bx bx-landscape  icono-delgado'></i><h4 class="subtitulos">Problem resolution</h4></li>
-                    <li class="habilities-li li-cuatro"><i class='bx bx-donate-heart  icono-delgado'></i><h4 class="subtitulos">Problem resolution</h4></li>
+                    <li class="habilities-li"><i class='bx bx-cog  icono-delgado'></i><h4 class="subtitulos">Problem resolution</h4></li>
+                    <li class="habilities-li"><i class='bx bx-group icono-delgado'></i><h4 class="subtitulos">Teamwork</h4></li>
+                    <li class="habilities-li"><i class='bx bx-landscape  icono-delgado'></i><h4 class="subtitulos">Creativity</h4></li>
+                    <li class="habilities-li"><i class='bx bx-donate-heart  icono-delgado'></i><h4 class="subtitulos">Empathy</h4></li>
                 </ul>
 
 
@@ -239,7 +242,7 @@
             </div>
         </section>
 
-        <section class="review">
+        <section class="review" id="section-cinco">
             <div class="container">
 
 
@@ -370,7 +373,7 @@
 
     </main>
 
-    <footer class="contacts-footer">
+    <footer class="contacts-footer" id="section-seis">
 
         <div class="container">
 

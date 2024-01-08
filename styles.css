@@ -78,18 +78,14 @@ a {
 
 .menu-link:hover {
     color:#e2e5ec;
-    border-left:2px solid #971d46;
-    border-right:2px solid #971d46;
+    border-left:2px solid #00BFF3;
+    border-right:2px solid #00BFF3;
     padding-left: 1vw;
     padding-right: 1vw;
     border-radius: 0.3vw;
 }
 
 
-
-.barra-item {
- 
-}
 
 .about-me {
     height:auto;
@@ -98,21 +94,16 @@ a {
 
 }
 
-.barra-lateral {
-    position: absolute;
-       list-style: none;
-   
-       top: 200px;
-   right: 15vh;
-      
-       justify-content: space-between;
-       display: flex;
-       align-items: center;
-       flex-direction: column;
-       height: auto;
-      
-      
-   }
+.switch {
+  
+    float: right;
+    position: relative;
+    top: 2vh;
+    border: 1px dashed #b6bbc4;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 
 .seccion1 {
 flex-wrap: nowrap;
@@ -148,6 +139,10 @@ height: auto;
 
 }
 
+.bx-download {
+    margin-left: 1vw;
+}
+
 .btn-one {
     background-color: #31304d;
     border-radius: 1vh;
@@ -158,6 +153,7 @@ height: auto;
     width: 45%;
     height: 80%;
     border: 2px dashed #b6bbc4;
+    cursor: pointer;
 }
 
 .subtitle-proyects {
@@ -351,6 +347,7 @@ height: auto;
 .bxl-html5:hover, .bxl-figma:hover, .bxl-css3:hover, .bxl-javascript:hover {
   font-size: 81px;
     opacity: initial;
+    color: #00BFF3;
 
 }
 
@@ -358,6 +355,7 @@ height: auto;
 .controlador-derecho {
     color: #b6bbc4;
     width:auto;
+    cursor: pointer;
    
     align-items: center;
     display: flex;
@@ -810,7 +808,7 @@ height:40vh ;
 }
 
 .enlaces:hover {
-    color: #971d4692;
+    color: #00BFF3;
 }
 
 
@@ -821,6 +819,7 @@ height:40vh ;
     font-size: 30px;
     margin: 0;
 }
+
 
 
 
@@ -1122,8 +1121,10 @@ height:40vh ;
 }
 
 .contacts-register {
+ 
     width: 60%;
     text-align: center;
+    justify-content: center;
 }
 
 .linea3 {
