@@ -29,6 +29,7 @@ a {
 }
 
 .header {
+    background-color: #11142a;
     width: 100%;
     height: 64px;
 }
@@ -176,7 +177,7 @@ height: auto;
 
     
     align-items: center;
-    background-color: #161a301a;
+  
 
 }
 
@@ -289,7 +290,7 @@ height: auto;
 .linea3 {
     width: 90%;
     padding: 0;
-    color: #b6bbc4;
+  
 
 
 
@@ -820,6 +821,43 @@ height:40vh ;
     margin: 0;
 }
 
+/* clases change background color  */
+
+.light-mode {
+    background-color: #b6bbc4;
+    color: #11142a;
+    border: none;
+  
+}
+
+.light-mode-font {
+    color: #11142a;
+}
+
+.light-mode-icon {
+    color: #31304d
+
+}
+
+.light-border {
+    border-top: 2px dashed #31304d;
+    border-bottom: 2px dashed #31304d;
+}
+
+.light-section  {
+    background-color: #31304d;
+    color: #b6bbc4;
+
+}
+
+.light-line {
+    border-color: #31304d;
+}
+
+.light-line2 {
+    border-bottom: 2px dashed #31304d;
+
+}
 
 
 
@@ -838,7 +876,8 @@ height:40vh ;
 
 
 
-@media only screen and (max-width: 767px) {
+
+@media  (max-width: 767px) {
 
     body {
 
@@ -1129,7 +1168,7 @@ height:40vh ;
 
 .linea3 {
     width: 100%;
-    border-bottom: 2px dashed #b6bbc4;
+    border-bottom: 2px dashed ;
 }
 
 .bxl-whatsapp,

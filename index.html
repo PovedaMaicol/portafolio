@@ -25,22 +25,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,300&display=swap"
         rel="stylesheet">
 
-<!-- Enlace bootstrap -->
+    <!-- Enlace bootstrap -->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Enlace local css -->
     <link rel="stylesheet" href="styles.css">
-   
+
 
 </head>
 
-<body>
+<body class="body">
     <header class="header">
         <nav class="navbar container">
             <a class="identificador" href='/'>Logo</a>
 
-         
+
 
 
             <div id="navMenu" class="menu">
@@ -55,7 +56,7 @@
                 </ul>
             </div>
 
-            
+
 
             <button id="btnOpen" class="btn-open" type="button" aria-label="abrir menu">
                 <i class='bx bx-menu nav-icon'></i>
@@ -73,21 +74,22 @@
     <main>
 
         <section class="about-me" id="section-uno">
-            
-          
-            
-  
+
+
+
+
 
             <div class="container">
 
-                <a class="switch" id="switch-light-dark"><i class="bx bx-moon bx-border-circle"></i></a>
+                <a class="switch"><i class="bx bx-moon bx-border-circle"></i></a>
 
                 <h4 class="txt-descriptivo">About me</h4>
 
                 <div class="seccion1">
 
                     <div class="caja2">
-                        <img class="cabezote-img" src="./img/ImagenEnPixel.jpeg" alt="propile picture" height="auto" width="auto">
+                        <img class="cabezote-img" src="./img/ImagenEnPixel.jpeg" alt="propile picture" height="auto"
+                            width="auto">
 
                     </div>
 
@@ -101,8 +103,8 @@
                             is, I enjoy every part of the process.</p>
 
                         <div class="caja_botones">
-                            <a class="btn-one">Web Developer<i class='bx bx-download'></i></a>
-                            <a class="btn-one">Web Designer<i class='bx bx-download'></i></a>
+                            <a class="btn-one" href="/">Web Developer<i class='bx bx-download'></i></a>
+                            <a class="btn-one" href="/">Web Designer<i class='bx bx-download'></i></a>
 
 
                         </div>
@@ -116,7 +118,7 @@
             </div>
         </section>
 
-        
+
 
         <section class="skills" id="section-dos">
 
@@ -188,57 +190,74 @@
 
                 <div class="habilities-cont">
 
-                <div class="habilities-txt">
-                    <h4 class="habilities-subtitle">Skills are important, but not all of them have to be technical</h4>
-                    <p class="habilities-parrafo">
-                        In my career as a web developer, I not only stand out for my solid technical skills, but also for my soft skills that enrich my contribution to the team. My ability to communicate effectively facilitates understanding of client needs, while my collaborative approach ensures seamless integration with teammates.</p>
-                </div>
-
-                <div class="habilities-cont-2">
-
-                <ul class="habilities-ul">
-                    <li class="habilities-li"><i class='bx bx-cog  icono-delgado'></i><h4 class="subtitulos">Problem resolution</h4></li>
-                    <li class="habilities-li"><i class='bx bx-group icono-delgado'></i><h4 class="subtitulos">Teamwork</h4></li>
-                    <li class="habilities-li"><i class='bx bx-landscape  icono-delgado'></i><h4 class="subtitulos">Creativity</h4></li>
-                    <li class="habilities-li"><i class='bx bx-donate-heart  icono-delgado'></i><h4 class="subtitulos">Empathy</h4></li>
-                </ul>
-
-
-                <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <div class="habilities-txt">
+                        <h4 class="habilities-subtitle">Skills are important, but not all of them have to be technical
+                        </h4>
+                        <p class="habilities-parrafo">
+                            In my career as a web developer, I not only stand out for my solid technical skills, but
+                            also for my soft skills that enrich my contribution to the team. My ability to communicate
+                            effectively facilitates understanding of client needs, while my collaborative approach
+                            ensures seamless integration with teammates.</p>
                     </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="img/programacion.jpg" class="d-block w-100" alt="...">
-                        
-                        
-                            
-                      </div>
-                      <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./img/programacion1.png" class="d-block w-100" alt="...">
-                        
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./img/programacion2.jpg" class="d-block w-100" alt="...">
-                        
-                      </div>
+
+                    <div class="habilities-cont-2">
+
+                        <ul class="habilities-ul">
+                            <li class="habilities-li"><i class='bx bx-cog  icono-delgado'></i>
+                                <h4 class="subtitulos">Problem resolution</h4>
+                            </li>
+                            <li class="habilities-li"><i class='bx bx-group icono-delgado'></i>
+                                <h4 class="subtitulos">Teamwork</h4>
+                            </li>
+                            <li class="habilities-li"><i class='bx bx-landscape  icono-delgado'></i>
+                                <h4 class="subtitulos">Creativity</h4>
+                            </li>
+                            <li class="habilities-li"><i class='bx bx-donate-heart  icono-delgado'></i>
+                                <h4 class="subtitulos">Empathy</h4>
+                            </li>
+                        </ul>
+
+
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/programacion.jpg" class="d-block w-100" alt="...">
+
+
+
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="./img/programacion1.png" class="d-block w-100" alt="...">
+
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/programacion2.jpg" class="d-block w-100" alt="...">
+
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-
-
                 </div>
-            </div>
             </div>
         </section>
 
@@ -256,9 +275,9 @@
 
                     <li class="review-list">
 
-                       
-                            <img class="review-photo" src="img/customer1.jpg" alt="picture profile reviews" width="100%">
-                   
+
+                        <img class="review-photo" src="img/customer1.jpg" alt="picture profile reviews" width="100%">
+
 
 
                         <div class="review-txt">
@@ -290,9 +309,9 @@
 
                     <li class="review-list">
 
-                     
-                            <img class="review-photo" src="img/customer2.jpg" alt="picture profile reviews" width="100%">
-                     
+
+                        <img class="review-photo" src="img/customer2.jpg" alt="picture profile reviews" width="100%">
+
 
 
                         <div class="review-txt">
@@ -399,10 +418,15 @@
 
 
                     <ul class="footer-contacts">
-                        <li class="footer-item"><a class="enlaces" href="https://www.behance.net/maicolvillami"><i class='bx bxl-whatsapp'></i></a></li>
-                        <li class="footer-item"><a class="enlaces" href="https://www.behance.net/maicolvillami"><i class='bx bxl-behance'></i></a></li>
-                        <li class="footer-item"><a class="enlaces" href="https://github.com/PovedaMaicol"><i class='bx bxl-github'></i></a></li>
-                        <li class="footer-item"><a class="enlaces" href="https://www.linkedin.com/in/maicol-salazar-7040b4299/"><i class='bx bxl-linkedin-square'></i></a></li>
+                        <li class="footer-item"><a class="enlaces" href="https://www.behance.net/maicolvillami"><i
+                                    class='bx bxl-whatsapp'></i></a></li>
+                        <li class="footer-item"><a class="enlaces" href="https://www.behance.net/maicolvillami"><i
+                                    class='bx bxl-behance'></i></a></li>
+                        <li class="footer-item"><a class="enlaces" href="https://github.com/PovedaMaicol"><i
+                                    class='bx bxl-github'></i></a></li>
+                        <li class="footer-item"><a class="enlaces"
+                                href="https://www.linkedin.com/in/maicol-salazar-7040b4299/"><i
+                                    class='bx bxl-linkedin-square'></i></a></li>
                     </ul>
 
 
@@ -444,13 +468,15 @@
     <!-- Puedes incluir scripts de JavaScript al final del cuerpo para mejorar el rendimiento -->
 
 
-    <!-- <script src="javascrip.js"></script> -->
+    <script src="javascrip.js"></script>
 
-<!--  script bootstrap -->
-<script src="https://kit.fontawesome.com/e7558da63d.js" crossorigin="anonymous"></script>
+    <!--  script bootstrap -->
+    <script src="https://kit.fontawesome.com/e7558da63d.js" crossorigin="anonymous"></script>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
