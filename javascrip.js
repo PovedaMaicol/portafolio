@@ -26,6 +26,7 @@ const headLight = document.querySelector('.navbar')
 const sectionRev = document.querySelector('.section-reviews')
 const lineaSection = document.querySelectorAll('.linea')
 const cambiarIcono = document.querySelector('.switch')
+const txtDescripto = document.querySelector('.txt-descriptivo')
 
 
 
@@ -42,6 +43,7 @@ btnChangeMode.onclick = function (){
     contactsLines.classList.toggle('light-line')
     headLight.classList.toggle('light-line')
    sectionRev.classList.toggle('light-section')
+   txtDescripto.classList.toggle('light-mode')
 
 
    if(fondo.classList.contains('light-mode')) {
