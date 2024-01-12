@@ -43,7 +43,7 @@ const sectionRev = document.querySelector('.section-reviews')
 const lineaSection = document.querySelectorAll('.linea')
 const cambiarIcono = document.querySelector('.switch')
 const txtDescripto = document.querySelector('.txt-descriptivo')
-
+const btnAbout = document.querySelectorAll('.btn-one')
 
 
 btnChangeMode.onclick = function (){
@@ -60,6 +60,7 @@ btnChangeMode.onclick = function (){
     headLight.classList.toggle('light-line')
    sectionRev.classList.toggle('light-section')
    txtDescripto.classList.toggle('light-mode')
+   
   
 
 
@@ -71,6 +72,10 @@ btnChangeMode.onclick = function (){
    
     cambiarIcono.firstElementChild.classList.remove('bx-sun')
     cambiarIcono.firstElementChild.classList.add('bx-moon')
+   }
+
+   for(btn of btnAbout){
+    btn.classList.toggle('light-button')
    }
 
    for(line of lineaSection){

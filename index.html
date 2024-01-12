@@ -39,7 +39,7 @@
 <body class="body">
     <header class="header">
         <nav class="navbar container">
-            <a class="identificador" href='/'>MS.</a>
+            <a class="identificador" href='/'>MS<span>.</span></a>
 
 
 
@@ -71,7 +71,7 @@
         }
     </script>
     <!-- El contenido de tu página va aquí -->
-    <main>
+    <main class="main">
 
         <section class="about-me" id="section-uno">
 
@@ -471,7 +471,7 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
     <script>
-        var typed = new Typed('.light', {
+        const typed = new Typed('.light', {
           strings: ['Hello'],
           typeSpeed: 180,
           backSpeed: 180,

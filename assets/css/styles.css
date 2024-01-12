@@ -42,6 +42,10 @@ a {
     padding: 0;
 }
 
+.identificador span {
+    color: #00BFF3;
+}
+
 
 .navbar {
     height: inherit;
@@ -86,6 +90,8 @@ a {
     padding-right: 1vw;
     border-radius: 0.3vw;
 }
+
+
 
 
 
@@ -839,13 +845,13 @@ height:40vh ;
 }
 
 .light-mode-icon {
-    color: #31304d
+    color: #11142a;
 
 }
 
 .light-border {
-    border-top: 2px dashed #31304d;
-    border-bottom: 2px dashed #31304d;
+    border-top: 2px dashed #11142a;
+    border-bottom: 2px dashed #11142a;
 }
 
 .light-section  {
@@ -855,12 +861,18 @@ height:40vh ;
 }
 
 .light-line {
-    border-color: #31304d;
+    border-color: #11142a;
 }
 
 .light-line2 {
-    border-bottom: 2px dashed #31304d;
+    border-bottom: 2px dashed #11142a;
 
+}
+
+.light-button {
+    background-color: #31304d63;
+    border: 2px dashed #11142a;
+    color: #11142a;
 }
 
 
@@ -883,7 +895,12 @@ height:40vh ;
 
 @media  (max-width: 767px) {
 
-    body {
+    .header {
+        position: fixed;
+       z-index: 5;
+       top: 0;
+       left: 0;
+     
 
     }
 
@@ -904,6 +921,9 @@ height:40vh ;
         transition: left .5s;
         z-index: 3;
       
+    }
+    .main {
+        margin-top:64px;
     }
 
     .show-menu {
