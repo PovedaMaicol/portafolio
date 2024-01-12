@@ -1,7 +1,23 @@
-const menuNavegacion = document.getElementById('navMenu')
+// Menu de navegacion 
 
+const menuNavegacion = document.getElementById('navMenu')
 const botonMenu = document.getElementById('btnOpen')
-const itemsMenu = document.querySelectorAll('.menu-link')
+const links = document.querySelectorAll('.menu-link')
+
+console.log(links)
+
+for(lin of links){
+    lin.onclick = function(){
+        menuNavegacion.classList.toggle('show-menu')
+    }
+
+}
+
+function desplegarMenu (){
+    menuNavegacion.classList.toggle('show-menu')
+   
+}
+
 
 
 
@@ -44,6 +60,7 @@ btnChangeMode.onclick = function (){
     headLight.classList.toggle('light-line')
    sectionRev.classList.toggle('light-section')
    txtDescripto.classList.toggle('light-mode')
+  
 
 
    if(fondo.classList.contains('light-mode')) {
@@ -83,18 +100,6 @@ btnChangeMode.onclick = function (){
 }
 
 // Hacer que se oculte el menu hamburguesa
-
-for(links of itemsMenu){
-    links.onclick = function(){
-        menuNavegacion.classList.toggle('show-menu')
-    }
-
-}
-
-function desplegarMenu (){
-    menuNavegacion.classList.toggle('show-menu')
-   
-}
 
 
 
