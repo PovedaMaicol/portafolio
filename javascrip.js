@@ -1,6 +1,10 @@
 const menuNavegacion = document.getElementById('navMenu')
-addEventListener
+
 const botonMenu = document.getElementById('btnOpen')
+const itemsMenu = document.querySelectorAll('.menu-link')
+
+
+
 
 // CAMBIAR DE MODO OSCURO A MODO CLARO 
 
@@ -21,6 +25,8 @@ const itemsFoter = document.querySelectorAll('.enlaces')
 const headLight = document.querySelector('.navbar')
 const sectionRev = document.querySelector('.section-reviews')
 const lineaSection = document.querySelectorAll('.linea')
+const cambiarIcono = document.querySelector('.switch')
+
 
 
 btnChangeMode.onclick = function (){
@@ -36,6 +42,17 @@ btnChangeMode.onclick = function (){
     contactsLines.classList.toggle('light-line')
     headLight.classList.toggle('light-line')
    sectionRev.classList.toggle('light-section')
+
+
+   if(fondo.classList.contains('light-mode')) {
+ 
+    cambiarIcono.firstElementChild.classList.remove('bx-moon')
+    cambiarIcono.firstElementChild.classList.add('bx-sun')
+   } else {
+   
+    cambiarIcono.firstElementChild.classList.remove('bx-sun')
+    cambiarIcono.firstElementChild.classList.add('bx-moon')
+   }
 
    for(line of lineaSection){
     line.classList.toggle('light-line2')
@@ -63,9 +80,18 @@ btnChangeMode.onclick = function (){
     
 }
 
+// Hacer que se oculte el menu hamburguesa
+
+for(links of itemsMenu){
+    links.onclick = function(){
+        menuNavegacion.classList.toggle('show-menu')
+    }
+
+}
 
 function desplegarMenu (){
     menuNavegacion.classList.toggle('show-menu')
+   
 }
 
 
